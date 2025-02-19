@@ -1,10 +1,8 @@
 ---
-title: "Transactions API"
-description: "API for managing transactions."
+title: "Tax Rates API - cURL Only"
+description: "Retrieve tax rates using cURL."
 ---
 
-# Transactions API
-
-## **Get All Transactions**
-```http
-GET /api/v1/transactions
+```sh
+curl -X GET "https://api.antei.com/v1/tax-rates" \
+     -H "Authorization: Bearer YOUR_API_KEY"
