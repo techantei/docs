@@ -1,0 +1,17 @@
+{
+  "name": "Antei Tax Documentation",
+  "logo": "/logo.png",
+  "colors": {
+    "primary": "#007AFF"
+  },
+  "metadata": {
+    "title": "Antei Tax Docs",
+    "description": "Comprehensive API and user documentation for Antei's taxation platform."
+  },
+  "navigation": {
+    "sidebar": "sidebar.json"
+  },
+  "footer": {
+    "copyright": "© 2024 Antei. All rights reserved."
+  }
+}
