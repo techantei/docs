@@ -128,6 +128,29 @@
           }
         }
       }
+    },
+    "/v1/get-tax-rate": {
+      "get": {
+        "summary": "Retrieve tax rate for a given jurisdiction",
+        "parameters": [
+          {
+            "name": "country",
+            "in": "query",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "example": { "tax_rate": 18.0 }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
