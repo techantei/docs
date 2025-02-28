@@ -1,10 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "openapi": "/api-reference/openapi.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "Antei Taxation Documentation",
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#05347E",
     "light": "#07C983",
     "dark": "#15803D"
   },
