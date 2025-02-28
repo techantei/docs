@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "openapi": "/api-reference/openapi.json",
   "theme": "willow",
-  "name": "Antei Taxation Documentation",
+  "name": "Antei Documentation",
   "appearance": {
     "default": "light",
     "strict": true
@@ -16,7 +16,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Antei Tax",
         "groups": [
           {
             "group": "Get Started",
@@ -27,7 +27,78 @@
             ]
           },
           {
-            "group": "Abra ka Dabra",
+            "group": "Guides",
+            "pages": [
+              "content/guides/csv-upload",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Antei Vault",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Antei Communication",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Antei Vault",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "content/guides/integration-antei",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+          
+        ]
+      },
+      {
+        "tab": "Antei Communication",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "content/guides/setup-integrations",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Guides",
             "pages": [
               "essentials/markdown",
               "essentials/code",
