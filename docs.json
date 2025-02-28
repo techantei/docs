@@ -27,7 +27,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Abra ka Dabra",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -68,18 +68,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "htttps://www.gmail.com",
           "icon": "newspaper"
         }
       ]
@@ -93,13 +83,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto: tech@antei.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://www.antei.com"
     }
   },
   "footer": {
