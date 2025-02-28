@@ -22,6 +22,7 @@
             "group": "Get Started",
             "pages": [
               "introduction",
+              "Usecases",
               "quickstart",
               "development"
             ]
@@ -38,42 +39,38 @@
             ]
           },
           {
-            "group": "Antei Vault",
+            "group": "Integrations",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              {
+                "group": "Billing and Payment Integrations",
+                "pages": [
+                  "Integrations/BillPay/Adyen",
+                  "Integrations/BillPay/Bill",
+                  "Integrations/BillPay/Braintree",
+                  "Integrations/BillPay/Chargebee",
+                  "Integrations/BillPay/Freshbooks",
+                  "Integrations/BillPay/Netsuite",
+                  "Integrations/BillPay/Quickbooks",
+                  "Integrations/BillPay/Sage",
+                  "Integrations/BillPay/Stripe",
+                  "Integrations/BillPay/Xero",
+                  "Integrations/BillPay/ZohoBooks"
+                ]
+              },
+              {
+                "group": "HRIS Integrations",
+                "pages": [
+                  "Integrations/HRIS/BambooHR",
+                  "Integrations/HRIS/FreshTeams",
+                  "Integrations/HRIS/Gusto",
+                  "Integrations/HRIS/Workday",
+                  "Integrations/HRIS/ZohoPeople"
+                ]
+              }
             ]
           },
           {
-            "group": "Antei Communication",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Antei Vault",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "content/guides/integration-antei",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Guides",
+            "group": "Tax Tools",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -84,32 +81,79 @@
             ]
           }
           
+          
+          
+          
         ]
       },
       {
-        "tab": "Antei Communication",
+        "tab": "Other Tools",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Antei Communication",
             "pages": [
-              "content/guides/setup-integrations",
-              "quickstart",
-              "development"
+              "otherTools/Communication/Introduction",
+              "otherTools/Communication/Usecases",
+              "otherTools/Communication/Setup",
+              "otherTools/Communication/how_it_works",
+              {
+                "group": "Integrations",
+                "pages": [
+                  "Integrations/Comm/Gmail",
+                  "Integrations/Comm/SendGrid",
+                  "Integrations/Comm/ZohoMail"
+                ]
+              },
+              "otherTools/Communication/FAQ"
             ]
           },
           {
-            "group": "Guides",
+            "group": "Antei Vault",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "otherTools/Vault/Introduction",
+              "otherTools/Vault/Usecases",
+              "otherTools/Vault/Setup",
+              "otherTools/Vault/how_it_works",
+              "otherTools/Vault/FAQ"
+            ]
+          },
+          {
+            "group": "Antei Invoice",
+            "pages": [
+              "otherTools/Invoice/Introduction",
+              "otherTools/Invoice/Usecases",
+              "otherTools/Invoice/Setup",
+              "otherTools/Invoice/how_it_works",
+              {
+                "group": "Integrations",
+                "pages": [
+                  "Integrations/BillPay/StripeInvoice"
+                ]
+              },
+              "otherTools/Invoice/FAQ"
+            ]
+          },
+          {
+            "group": "Antei Payment Links",
+            "pages": [
+              "otherTools/PaymentLinks/Introduction",
+              "otherTools/PaymentLinks/Usecases",
+              "otherTools/PaymentLinks/Setup",
+              "otherTools/PaymentLinks/how_it_works",
+              {
+                "group": "Integrations",
+                "pages": [
+                  "Integrations/BillPay/StripePaymentLink",
+                  "Integrations/BillPay/AdyenPaymentLink"
+                ]
+              },
+              "otherTools/PaymentLinks/FAQ"
             ]
           }
+          
         ]
       },
+      
       {
         "tab": "API Reference",
         "groups": [
@@ -120,26 +164,255 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Authorisation",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              {
+                "group": "Tax Rate",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Tax ID",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Transactions",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Products",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              }
             ]
           },
           {
-            "group": "Tax Rates",
+            "group": "Taxation End Points",
             "pages": [
-              "api-reference/tax-rates/create"
+              {
+                "group": "Tax Rate",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Tax ID Validation",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Unified Tax Calculation",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Transactions",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Products",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Customers",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Invoices",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Returns",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Notifications",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Tax Calendar",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Checkouts",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Communication End Points",
+            "pages": [
+              {
+                "group": "Tax Rate",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Tax ID",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Transactions",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Products",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              }
+            ]
+          },
+          
+          {
+            "group": "Invoicing",
+            "pages": [
+              {
+                "group": "Tax Rate",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Tax ID",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Transactions",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Products",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Payment Links",
+            "pages": [
+              {
+                "group": "Tax Rate",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Tax ID",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Transactions",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Products",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              }
             ]
           }
+          
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Blog",
+          "anchor": "Antei Blogs",
           "href": "htttps://www.gmail.com",
           "icon": "newspaper"
         }
