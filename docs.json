@@ -59,7 +59,7 @@
           {
             "group": "Tax Rates",
             "pages": [
-              "api-reference/tax-rates/create",
+              "api-reference/tax-rates/create"
             ]
           }
         ]
