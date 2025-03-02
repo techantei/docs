@@ -45,10 +45,7 @@
                 "group": "Billing and Payment Integrations",
                 "pages": [
                   "Integrations/BillPay/Adyen",
-                  "Integrations/BillPay/Bill",
-                  "Integrations/BillPay/Braintree",
                   "Integrations/BillPay/Chargebee",
-                  "Integrations/BillPay/Freshbooks",
                   "Integrations/BillPay/Netsuite",
                   "Integrations/BillPay/Quickbooks",
                   "Integrations/BillPay/Sage",
@@ -65,6 +62,15 @@
                   "Integrations/HRIS/Gusto",
                   "Integrations/HRIS/Workday",
                   "Integrations/HRIS/ZohoPeople"
+                ]
+              },
+              {
+                "group": "Other Integrations",
+                "pages": [
+                  "Integrations/Comm/GoogleCalendar",
+                  "Integrations/Comm/Gmail",
+                  "Integrations/Comm/Outlook",
+                  "Integrations/Comm/ZohoMail"
                 ]
               }
             ]
@@ -90,17 +96,18 @@
         "tab": "Other Tools",
         "groups": [
           {
-            "group": "Antei Communication",
+            "group": "Antei Compliance Sync",
             "pages": [
-              "otherTools/Communication/Introduction",
-              "otherTools/Communication/Usecases",
-              "otherTools/Communication/Setup",
-              "otherTools/Communication/how_it_works",
+              "otherTools/DataFlow/Introduction",
+              "otherTools/DataFlow/Usecases",
+              "otherTools/DataFlow/Setup",
+              "otherTools/DataFlow/how_it_works",
               {
                 "group": "Integrations",
                 "pages": [
+                  "Integrations/Comm/GoogleCalendar",
                   "Integrations/Comm/Gmail",
-                  "Integrations/Comm/SendGrid",
+                  "Integrations/Comm/Outlook",
                   "Integrations/Comm/ZohoMail"
                 ]
               },
@@ -118,7 +125,7 @@
             ]
           },
           {
-            "group": "Antei Invoice",
+            "group": "Antei Precise Invoice",
             "pages": [
               "otherTools/Invoice/Introduction",
               "otherTools/Invoice/Usecases",
@@ -127,14 +134,15 @@
               {
                 "group": "Integrations",
                 "pages": [
-                  "Integrations/BillPay/StripeInvoice"
+                  "Integrations/BillPay/StripeInvoice",
+                  "Integrations/BillPay/Chargebee"
                 ]
               },
               "otherTools/Invoice/FAQ"
             ]
           },
           {
-            "group": "Antei Payment Links",
+            "group": "Antei Precise Payment Links",
             "pages": [
               "otherTools/PaymentLinks/Introduction",
               "otherTools/PaymentLinks/Usecases",
